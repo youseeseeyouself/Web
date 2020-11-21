@@ -1,0 +1,216 @@
+/* CSS Document */
+
+body{
+    margin: 0em;
+    border: 0em;
+    align-content: center;
+    background-color:aliceblue;
+}
+h1{
+    margin: 0em;
+    border: 0em;
+}
+header{
+    height: 20%;
+    background-color:aliceblue;
+}
+a{
+    text-decoration-line: none;
+    color: inherit;
+
+
+}
+.mune-li> a:hover{
+    color: white;
+    background-color: yellowgreen;
+
+
+}
+
+li{
+    list-style-type: none;
+}
+p{
+    text-indent: 2em;
+}
+
+#tltle{
+    padding: 20px 0px;
+    font-size: 48px;
+    color:#BCB4AF;
+    text-align:center;
+    text-shadow: 5px 5px 5px black;
+    letter-spacing: 0.8em;
+}
+#content{
+    
+    width: auto;
+    right: 0;
+    margin-right: 5em;
+    margin-left: 5em;
+}
+.mune{
+    
+    padding: 0 0 0 6em;
+    margin: 0;
+    margin-bottom: 3em;
+    list-style: none;
+    height: 3em;
+    position: relative;
+   border-style:solid; 
+    clear: both;
+    
+
+    
+}
+.mune>li:nth-child(1)>a::before{
+    content: url("../image/items/apple_golden.png");
+}
+.mune>li:nth-child(2)>a::before{
+    content: url("../image/items/bed.png");
+}
+.mune>li:nth-child(3)>a::before{
+    content: url("../image/items/brick.png");
+}
+.mune>li:nth-child(4)>a::before{
+    content: url("../image/items/bread.png");
+}
+.mune>li:nth-child(5)>a::before{
+    content: url("../image/items/book_writable.png");
+}
+.mune>li:nth-child(6)>a::before{
+    content: url("../image/items/birch_boat.png");
+}
+.menu-li{
+    width: 5px;
+    color: white;
+    margin: 1em;
+    border-radius: 2em;
+    background-color:currentColor;
+}
+footer{
+    top: 100%;
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    align-content: center;
+    text-align: center;
+    margin: 2em 0;
+    clear: both;
+}
+hr{
+    margin: 0;
+    padding: 0;
+    border-bottom-color: black;
+    background-color: black;
+    opacity: 0.6;
+}
+.minecraft {
+    float: left;
+    align :left;
+    width: 30em;
+    height: auto;
+    margin: 0 6em;
+    border: 0;
+    
+}
+
+
+.mune>li {
+    display: block;
+    float: left;
+    position: relative;
+    opacity: 1;
+    
+}
+
+.menu-a {
+    display: block;
+    float: left;
+    height: 2em;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding:0 3em;
+    line-height: 1.8em;
+    border-radius: 1em;
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+
+small {
+    font-size: 1em;
+    padding-top: 2em;
+}
+
+#text {
+    padding-top: 3em;
+    width: 30em;
+    float: left;
+    margin: 0 6em;
+    
+    
+}
+
+.introduce {
+    margin: 5em 0 0 5em;
+    width: 80%;
+}
+
+
+
+#mc {
+    text-align: center;
+    padding: 0.125em ;
+    font-size: 20px;
+    border-radius: 0.5em;
+    background-color:chartreuse;
+    width: 4em;
+    height: 1.5em;
+
+}
+
+.introduce-context {
+    margin-left: 6em;
+    font-size: 15px;
+    padding: 2em;
+    border-style: solid;
+    
+}
+
+.mate::before {
+    content: url("../image/minecraft/bed.png");
+}
+
+#screen {
+    width: 999px;
+    height: 400px;
+    animation: 20s fdsa infinite;
+    animation-direction: alternate;
+}
+#screen>img{
+    width: 800px;
+    height: 400px;
+    float: left;
+    
+}
+
+#tv {
+    width:800px;
+    height: 400px;
+    overflow: hidden;
+}
+@keyframes fdsa {
+    0%{transform: translateY(0px)}
+    10%{transform: translateY(-400px)}
+    20%{transform: translateY(-800px)}
+    30%{transform: translateY(-1200px)}
+    40%{transform: translateY(-1600px)}
+    50%{transform: translateY(-2000px)}
+    60%{transform: translateY(-2400px)}
+    70%{transform: translateY(-2800px)}
+    80%{transform: translateY(-3200px)}
+    90%{transform: translateY(-3600px)}
+    100%{transform: translateY(-3600px)}
+    
+}

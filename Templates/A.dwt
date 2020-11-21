@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>MineCraft服务器</title>
+<!-- TemplateEndEditable -->
+
+<link rel="stylesheet" type="text/css" href="../css/index.css">
+<link rel="stylesheet" type="text/css" href="../layui/css/layui.css">
+<link rel="stylesheet" type="text/javascript" href="../layui/layui.js">
+
+
+</head>
+<body>    
+    <header>
+       <a href="../index.html"><h1 id="tltle"> 超和谐的世界</h1></a>
+      
+    
+    <nav class="mune">
+    
+            
+            <li class="mune-li"><a class="menu-a" href="../index.html">我的世界</a> </li>
+            <li class="mune-li"><a class="menu-a" href="../html/mate.html">成员介绍</a> </li>
+            <li class="mune-li"><a class="menu-a" href="../html/building.html">建筑</a> </li>
+            <li class="mune-li"><a class="menu-a" href="../html/produce.html">后勤</a> </li>
+            <li class="mune-li"><a class="menu-a" href="../html/game.html">游戏机制</a> </li>
+            <li class="mune-li"><a class="menu-a" href="../html/relation.html">加入我们</a> </li>
+            <li style="clear: both"></li>
+    </nav>
+</header>
+    <!-- TemplateBeginEditable name="EditRegion1" -->
+
+<div id="content">
+    <div>
+    <img class="minecraft" src="../image/MineCraft.jpg" alt="我的世界" >
+
+            <p id="text">这是一个MineCraft服务器的展示网页，会为我们展示了服务器的<a href="">内部建筑</a> ，展示了我们的<a href="">后勤工程</a> ，也展示了我们的服务器的成员。
+                <br>
+                <br>
+             <cite style="float: right"> ——腐竹</cite> <br/>       
+        </p>
+    </div>
+
+    
+ 
+<div style="clear: both"></div>
+</div>
+
+    
+
+    <footer>
+        <br>
+        
+        <small>
+            <hr>
+            <br>
+        友情链接：
+            <a href="https://www.minecraft.net/zh-hans" target="_blank">MC官网</a>||
+            <a href="https://www.mcbbs.net/" target="_blank">MCBBS</a>||
+            <a href="https://www.mcmod.cn/" target="_blank">MC百科</a>||
+            <a href="https://minecraft-zh.gamepedia.com/Minecraft_Wiki" target="_blank">MC Wiki</a>
+        </small>
+    </footer>
+    <!-- TemplateEndEditable -->
+</body>
+</html>
