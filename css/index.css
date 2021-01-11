@@ -42,16 +42,10 @@ p{
     text-shadow: 5px 5px 5px black;
     letter-spacing: 0.8em;
 }
-#content{
-    
-    width: auto;
-    right: 0;
-    margin-right: 5em;
-    margin-left: 5em;
-}
+
 .mune{
     
-    padding: 0 0 0 6em;
+    padding: 0 0 0 2em;
     margin: 0;
     margin-bottom: 3em;
     list-style: none;
@@ -89,6 +83,7 @@ p{
     background-color:currentColor;
 }
 footer{
+    
     top: 100%;
     width: 100%;
     height: 100px;
@@ -110,7 +105,7 @@ hr{
     align :left;
     width: 30em;
     height: auto;
-    margin: 0 6em;
+    margin: 0 3em;
     border: 0;
     
 }
@@ -131,7 +126,7 @@ hr{
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
-    padding:0 3em;
+    padding:0 2em;
     line-height: 1.8em;
     border-radius: 1em;
     transition-property: background-color;
@@ -144,11 +139,12 @@ small {
 }
 
 #text {
-    padding-top: 3em;
+    padding: 1.5em ;
     width: 30em;
     float: left;
     margin: 0 6em;
-    
+    border-style: solid;
+    border-color:chocolate;
     
 }
 
@@ -158,59 +154,50 @@ small {
 }
 
 
-
-#mc {
-    text-align: center;
-    padding: 0.125em ;
-    font-size: 20px;
-    border-radius: 0.5em;
-    background-color:chartreuse;
-    width: 4em;
-    height: 1.5em;
-
-}
-
 .introduce-context {
     margin-left: 6em;
     font-size: 15px;
     padding: 2em;
     border-style: solid;
+    border-color: chocolate;
     
 }
 
-.mate::before {
-    content: url("../image/minecraft/bed.png");
+.mate::after {
+    content: url("../image/items/bed.png");
+}
+.mate{
+    clear: both;
 }
 
-#screen {
-    width: 999px;
-    height: 400px;
-    animation: 20s fdsa infinite;
-    animation-direction: alternate;
+
+
+#login>a{
+    margin: 10px;
 }
-#screen>img{
-    width: 800px;
-    height: 400px;
+
+h2 {
+    text-align: center;
+}
+
+#game-mune {
     float: left;
-    
+    margin-right: 3em;
+    width: 150px;
+    height: 500px;
+    background-color: aquamarine;
 }
 
-#tv {
-    width:800px;
-    height: 400px;
-    overflow: hidden;
+#game-content {
+    float: left;
+    width: 800px;
+    height:500px;
+    background-color: blueviolet;
 }
-@keyframes fdsa {
-    0%{transform: translateY(0px)}
-    10%{transform: translateY(-400px)}
-    20%{transform: translateY(-800px)}
-    30%{transform: translateY(-1200px)}
-    40%{transform: translateY(-1600px)}
-    50%{transform: translateY(-2000px)}
-    60%{transform: translateY(-2400px)}
-    70%{transform: translateY(-2800px)}
-    80%{transform: translateY(-3200px)}
-    90%{transform: translateY(-3600px)}
-    100%{transform: translateY(-3600px)}
+#content{
     
+    width: auto;
+    right: 0;
+    margin-right: 5em;
+    margin-left: 5em;
 }

@@ -1,0 +1,36 @@
+/* CSS Document */
+
+#screen {
+    width: 999999px;
+    height: 400px;
+    animation: 20s fdsa infinite;
+    animation-direction: alternate;
+}
+
+#screen>img{
+    float: left;
+    width: 800px;
+    height: 400px;
+    
+    
+}
+
+#tv {
+    width:800px;
+    height: 400px;
+    overflow: hidden;
+}
+@keyframes fdsa {
+    0%{transform: translateX(0px)}
+    10%{transform: translateX(-800px)}
+    20%{transform: translateX(-1600px)}
+    30%{transform: translateX(-2400px)}
+    40%{transform: translateX(-3200px)}
+    50%{transform: translateX(-4000px)}
+    60%{transform: translateX(-4800px)}
+    70%{transform: translateX(-5600px)}
+    80%{transform: translateX(-6400px)}
+    90%{transform: translateX(-7200px)}
+    100%{transform: translateX(-7200px)}
+    
+}
